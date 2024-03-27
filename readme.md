@@ -13,7 +13,7 @@ npm install "bump-timeout"
 ### GitHub
 
 ```sh
-npm install "https://github.com/grumpygary/bump-timeout"
+git clone "https://github.com/grumpygary/bump-timeout"
 ```
 
 ## Use Case
