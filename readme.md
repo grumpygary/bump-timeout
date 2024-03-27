@@ -39,7 +39,8 @@ to the same function.
 
 ## Syntax
 
-```bumpTimeout(fnCommonName,fn,msTimeout)```
+```
+bumpTimeout(fnCommonName,fn,msTimeout)
 
 name          | type     | default         | description
 --------------|----------|-----------------|-------------------------------------------------
