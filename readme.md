@@ -1,6 +1,6 @@
 # bump-timeout
 
-> Coorordinate multiple timeout calls using keys.
+Coorordinate multiple timeout calls using keys.
 
 ## Installing
 
@@ -13,7 +13,7 @@ npm install "bump-timeout"
 ### GitHub
 
 ```sh
-   npm install "https://github.com/grumpygary/bump-timeout"
+npm install "https://github.com/grumpygary/bump-timeout"
 ```
 
 ## Use Case
