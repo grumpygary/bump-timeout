@@ -1,15 +1,16 @@
 {
+  "version": "1.0.2",
   "name": "bump-timeout",
-  "version": "1.0.0",
   "description": "Implements sharable async timeouts.  Useful for coordinating unknown number of async operations using a timeout 'key'.",
   "main": "src/Bump-Timeout.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": ["timeout", "shared"],
   "author": "Gary Skiba",
   "license": "MIT",
   "dependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "repository": "github:grumpygary/bump-timeout"
 }
