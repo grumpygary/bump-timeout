@@ -44,26 +44,26 @@ to the same function.
 name          | type     | default         | description
 --------------|----------|-----------------|-------------------------------------------------
 fnCommonName  | string   |                 | common key for the timeout.  required
-function      | function | <none>          | will be called when timeout expires. Iif missing, the common timeout is cleared.
+function      | function | <none>          | will be called when timeout expires. If missing, the common timeout is cleared.
 millseconds   | number   | 0               | timeout expiration in milliseconds
 ```
 
 ## Usage (example)
 
-```js
+```
 import { 
     bumpTimeout, timeout, listActiveBumpTimeouts
 } from "bump-timeout";
 
-    const handler = async (val) => {
-        console.log(`Value is "${val}"`)
-    }
+const handler = async (val) => {
+    console.log(`Value is "${val}"`)
+}
 
-    bumpTimeout("test",() => handler("first"),1000);
-    bumpTimeout("test",() => handler("second"),500);
-    bumpTimeout("test",() => handler("third"),10);
+bumpTimeout("test",() => handler("first"),1000);
+bumpTimeout("test",() => handler("second"),500);
+bumpTimeout("test",() => handler("third"),10);
 
-    // only one line of output
-    //  Result is "third"
+// only one line of output
+//  Value is "third"
 
 ```
