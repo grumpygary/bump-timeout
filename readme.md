@@ -43,9 +43,8 @@ to the same function.
 
 name          | type     | default         | description
 --------------|----------|-----------------|-------------------------------------------------
-fnCommonKey   | string   |                 | common key for the timeout.  required
-function      | function | <none>          | will be called when timeout expires
-              |          |                 | -- If missing, the common timeout is cleared.
+fnCommonName  | string   |                 | common key for the timeout.  required
+function      | function | <none>          | will be called when timeout expires. Iif missing, the common timeout is cleared.
 millseconds   | number   | 0               | timeout expiration in milliseconds
 ```
 
