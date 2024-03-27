@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "bump-timeout",
   "description": "Implements sharable async timeouts.  Useful for coordinating unknown number of async operations using a timeout 'key'.",
   "main": "src/Bump-Timeout.js",
